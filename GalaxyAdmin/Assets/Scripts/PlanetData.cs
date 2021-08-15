@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System;
 
 [CreateAssetMenu(fileName = "PlanetData", menuName = "ScriptableObjects/Planet")]
 public class PlanetData : ScriptableObject
@@ -15,4 +14,5 @@ public class PlanetData : ScriptableObject
     public Sprite Sprite;
     public Sprite SecondarySprite;
     public float MaxCycle;
+    public int Level;
 }
